@@ -131,6 +131,7 @@
     <ClCompile Include="Chainfunction.cpp" />
     <ClCompile Include="construktor.cpp" />
     <ClCompile Include="Destruktor.cpp" />
+    <ClCompile Include="mbrStaticfunct.cpp" />
     <ClCompile Include="mbStatic.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
