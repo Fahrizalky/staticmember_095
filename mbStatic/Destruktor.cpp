@@ -12,3 +12,17 @@ public:
 	void isiData();
 };
 
+//Definisi member function
+angka::angka(int i) { //constructor
+	panjang = i;
+	arr = new int[i];
+	isiData();
+}
+
+angka::~angka() { //Destructor
+	cout << endl;
+	cetakData();
+	delete[]arr;
+	cout << "Alamat array sudah dilepaskan" << endl;
+}
+
