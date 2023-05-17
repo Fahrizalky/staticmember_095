@@ -18,5 +18,8 @@
     <ClCompile Include="mbStatic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Chainfunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
